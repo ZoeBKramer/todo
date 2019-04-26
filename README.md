@@ -4,15 +4,31 @@ Click [here](https://todoster-zoe-kramer.herokuapp.com/) to visit ToDo.
 
 ### Overview
 
+A web application, built with Ruby on Rails, that allows users to enter in a task and cross it out upon completion. This app utlizes jQuery to display the tasks and cross them off without needing to refresh the page. 
+
 ### Code Structure
 
 **Models**:
+
+*Task Model* - [`app\models\task.rb`](https://github.com/ZoeBKramer/todo/blob/master/app/models/task.rb)
+
+This model has no validations. 
 
 **Views**:
 
 **Controllers**:
 
+*Tasks Controller* - [`app\controllers\tasks_controller.rb`](https://github.com/ZoeBKramer/todo/blob/master/app/controllers/tasks_controller.rb)
+
+* Index Method: Displays all the tasks on the page in the order of their ID and renders the task in JSON format.  
+
+* Update Method: Finds the task by ID and then updates the task if the data entered is valid and renders the task in JSON format. 
+
+* Create Method: Creates a task if the data entered is valid and renders the task in JSON format.
+
 **Gemfiles**:
+
+[jquery-rails gem](https://github.com/rails/jquery-rails) - jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
 
 # Set Up Vagrant
 
