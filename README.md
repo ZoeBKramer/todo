@@ -16,6 +16,16 @@ This model has no validations.
 
 **Views**:
 
+*Static Pages Index View* - [`app\views\static_pages\index.html.erb`](https://github.com/ZoeBKramer/todo/blob/master/app/views/static_pages/index.html.erb)
+
+![Static Pages Index View Page Image](https://raw.githubusercontent.com/ZoeBKramer/todo/master/app/assets/images/todoster.png)
+
+*Tasks Javascript* - [`app\assets\javascripts\tasks.js`](https://github.com/ZoeBKramer/todo/blob/master/app/assets/javascripts/tasks.js)
+
+*Header* - [`app\views\layouts\application.html.erb`](https://github.com/ZoeBKramer/todo/blob/master/app/views/layouts/application.html.erb)
+
+Controls what is displayed in the header of the application.
+
 **Controllers**:
 
 *Tasks Controller* - [`app\controllers\tasks_controller.rb`](https://github.com/ZoeBKramer/todo/blob/master/app/controllers/tasks_controller.rb)
