@@ -18,9 +18,13 @@ This model has no validations.
 
 *Static Pages Index View* - [`app\views\static_pages\index.html.erb`](https://github.com/ZoeBKramer/todo/blob/master/app/views/static_pages/index.html.erb)
 
+Contains the HTML for the header (todos) as well as an input form where users can enter in tasks. There is an empty section where `tasks.js` will render the data. 
+
 ![Static Pages Index View Page Image](https://raw.githubusercontent.com/ZoeBKramer/todo/master/app/assets/images/todoster.png)
 
 *Tasks Javascript* - [`app\assets\javascripts\tasks.js`](https://github.com/ZoeBKramer/todo/blob/master/app/assets/javascripts/tasks.js)
+
+We use this Javasript code to render the tasks onto the screen. We also use a toggle function that allows the user to click on the tasks, cross them off, and updates whether or not this task is completed to the database. It asynchronously creates a task using AJAX when a user enters data into the new form.   
 
 *Header* - [`app\views\layouts\application.html.erb`](https://github.com/ZoeBKramer/todo/blob/master/app/views/layouts/application.html.erb)
 
